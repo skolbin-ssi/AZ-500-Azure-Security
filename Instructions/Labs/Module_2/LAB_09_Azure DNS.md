@@ -19,7 +19,7 @@ Lessons include:
 ### Task 1: Create a DNS zone
 
 1.  Sign in to the Azure Portal.
-2.  On the Hub menu, click **All services** and search for and select **DNS zone**.
+2.  On the Hub menu, click **All services** and search for and select **DNS zones**.
 
      ![Screenshot](../Media/Module-2/2c8b996d-d6b5-4cfa-9832-55b2479aa5fe.png)
 
@@ -48,7 +48,7 @@ This exercise shows you how to manage record sets and records for your DNS zone 
 
 1.  In the Azure Portal, navigate to **All resources** and select your DNS zone you created in the previous task.
 
-**Note:** Each DNS zone is its own resource, and information such as number of record-sets and name servers are viewable from this view. 
+    **Note:** Each DNS zone is its own resource, and information such as number of record-sets and name servers are viewable from this view. 
 
  
 3.  Click **+ Record Set**.
@@ -108,5 +108,5 @@ You cannot delete the SOA and NS record sets at the zone apex (name = "\@") that
 You are then prompted to confirm you are wanting to delete the DNS zone. Deleting a DNS zone also deletes all records that are contained in the zone.
 
 
-| WARNING: Prior to continuting you should remove all resources used for this lab.  To do this in the **Azure Portal** click **Resource groups**.  Select any resources groups you have created.  On the resource group blade click **Delete Resource group**, enter the Resource Group Name and click **Delete**.  Repeat the process for any additional Resource Groups you may have created. **Failure to do this may cause issues with other labs.** |
+| WARNING: Prior to continuing you should remove all resources used for this lab.  To do this in the **Azure Portal** click **Resource groups**.  Select any resources groups you have created.  On the resource group blade click **Delete Resource group**, enter the Resource Group Name and click **Delete**.  Repeat the process for any additional Resource Groups you may have created. **Failure to do this may cause issues with other labs.** |
 | --- |
